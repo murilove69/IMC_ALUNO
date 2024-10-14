@@ -7,7 +7,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		// Chamando os atributos do Aluno
-		Aluno a = new Aluno("Murilo Ramos Terra Rodrigues", "123.456.789-07", 88.4, 1.5, 4.9, 85.7);
+		Aluno a = new Aluno("Murilo Ramos Terra Rodrigues", "123.456.789-07", 88.4, 1.85, 4.9, 85.7);
 
 		// Verificando se o CPF é valido
 		boolean cpf = FuncoesUteis.verificarCpf(a.getCpf());
